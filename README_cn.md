@@ -1,13 +1,13 @@
 # uv-cpp
 <a href="https://github.com/wlgq2/uv-cpp/releases"><img src="https://img.shields.io/github/release/wlgq2/uv-cpp.svg" alt="Github release"></a>
-[![Platform](https://img.shields.io/badge/platform-%20%20%20%20Linux,%20Windows-green.svg?style=flat)](https://github.com/wlgq2/uv-cpp)
+[#[Platform](https://img.shields.io/badge/platform-%20%20%20%20Linux,%20Windows-green.svg?style=flat)](https://github.com/wlgq2/uv-cpp)
 [![License](https://img.shields.io/badge/license-%20%20MIT-yellow.svg?style=flat)](LICENSE)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 
 <br>基于libuv实现的C++11风格网络库。接口简洁，性能优越，做过业务压测，稳定线上运行。正确使用接口情况下，未发现core dump或内存泄漏。</br>
 ## 依赖项
- * [libuv][1]
+   [libuv][1]
 ## 特性
 ** **
 * C++11风格回调函数：非C语言函数回调，支持非静态类成员函数及lambda。
@@ -111,3 +111,4 @@ int main(int argc, char** args)
 [3]: https://github.com/wlgq2/uvnsq
 [4]: https://github.com/wlgq2/uv-cpp/tree/master/examples
 [5]: https://github.com/wlgq2/uv-cpp/tree/master/doc
+ 
